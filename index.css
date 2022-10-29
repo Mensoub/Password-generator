@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    position: absolute;
+    width: 1253px;
+    height: 678px;
+
+    background: #1C1C1C;
+    
+}
+
+.password-app {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+    background: #1F2937;
+    border: solid 4px white;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#message {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 225px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+
+}
+
+#line {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+    
+    border: 1px solid #2F3E53;
+}
+
+/* #generate-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 295px;
+    
+    background: #10B981;
+    color: #FFFFFF;
+    
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px; 
+} */
+
+button {
+    font-family: 'Inter';
+    background-color: #10B981;
+    border: solid #F2D750;
+    color: #FFFFFF;;
+    padding: 9px 17px 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 295px;
+  }
+button:hover {
+    background-color: #F2D750;
+    color: black;
+    font-size: 19px;
+    border-radius: 30px;
+  }
+
+
+#password1-el {
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 410px;
+    
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+}
+
+#password2-el {
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 410px;
+    
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+}
+
+
